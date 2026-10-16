@@ -1,0 +1,4 @@
+<div class="text-center">
+        Wir wünschen dir viel Spaß beim <strong>Bourtange-Quiz</strong>. Die Tour mit insgesamt 12 Fragen startet beim Informationszentrum. 
+        Die Festung kann <a href="https://www.bourtange.de/evenementen" target="_blank">an den meisten Tagen im Jahr</a> kostenlos besucht werden.
+</div>
