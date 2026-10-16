@@ -62,9 +62,9 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
 
 1. **`index.php`**: Lädt die Hauptkonfiguration (`MapQuizzzes.json`), erkennt die Sprache und stellt die HTML-Grundstruktur sowie die Konfigurationsdaten für die JavaScript-App bereit. Dient auch als API-Endpunkt, um die Daten einer ausgewählten Tour (`quizdata.json`) zu laden.
 2. **`MapQuizzzes.js`**: Das Herzstück der Anwendung
-3. **Konfigurationsdateien (`.json`)**:
-    - **`MapQuizzzes.json`**: Globale Konfiguration (Name, verfügbare Touren, UI-Übersetzungen).
-    - **`quizdata.json`**: Enthält alle Rätselpunkte für eine bestimmte Tour (Koordinaten, Fragen, Antworten, Bilder).
+3. **Konfigurationsdateien** (`.json`):
+    - `MapQuizzzes.json`: Globale Konfiguration (Name, verfügbare Touren, UI-Übersetzungen).
+    - `quizdata.json`: Enthält alle Rätselpunkte für eine bestimmte Tour (Koordinaten, Fragen, Antworten, Bilder).
 
 ---
 
