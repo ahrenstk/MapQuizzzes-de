@@ -1,4 +1,4 @@
-# MapQuizzzes
+# MapQuizzzes (MapQuizzzes-de)
 
 **MapQuizzzes** ist ein flexibles, webbasiertes Framework zur Erstellung von interaktiven, GPS-gestützten Outdoor-Rätseltouren für das Smartphone. Es läuft vollständig im Browser des Nutzers, ist als Progressive Web App (PWA) installierbar und erfordert keine Anmeldung für den Benutzer.
 
