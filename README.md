@@ -40,7 +40,7 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
 
 ## ✨ Features
 
-- **Reine Browser-Anwendung:** Die gesamte Logik läuft im Browser. Es ist keine serverseitige Datenspeicherung statt
+- **Reine Browser-Anwendung:** Die gesamte Logik läuft im Browser. Es findet keine serverseitige Datenspeicherung statt.
 - **PWA-Ready:** Kann wie eine native App zum Startbildschirm von Android- und iOS-Geräten hinzugefügt werden.
 - **Keine Anmeldung:** Nutzer können sofort und ohne Konto loslegen.
 - **Interaktive Karten:** MapQuizzzes nutzt mit Leaflet das Kartenmaterial von OpenStreetMap und Esri.
