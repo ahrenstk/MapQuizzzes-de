@@ -1,53 +1,43 @@
 # MapQuizzzes
 
-**MapQuizzzes** ist ein flexibles, webbasiertes Framework zur Erstellung von interaktiven, GPS-gestützten Outdoor-Rätseltouren. Es läuft vollständig im Browser des Nutzers, ist als Progressive Web App (PWA) installierbar und erfordert keine Anmeldung oder Datenspeicherung auf einem Server.
+**MapQuizzzes** ist ein flexibles, webbasiertes Framework zur Erstellung von interaktiven, GPS-gestützten Outdoor-Rätseltouren für das Smartphone. Es läuft vollständig im Browser des Nutzers, ist als Progressive Web App (PWA) installierbar und erfordert keine Anmeldung oder Datenspeicherung auf einem Server.
 
-Ein privates Projekt von Heinz Ahrens.
 
 ---
 
 ## 🚀 Live-Demo
 
-Entdecken Sie das **[Bourtange-Quiz](https://ahrens.tk/MapQuizzzes-de)**, um das Framework in Aktion zu sehen.
-
-- **Andere Sprachen:** [English](https://ahrens.tk/MapQuizzzes-en) | [Nederlands](https://ahrens.tk/MapQuizzzes-nl)
-- **Download:** Das gesamte Projekt kann als ZIP-Archiv heruntergeladen werden: [EN](https://ahrens.tk/MapQuizzzes-en.zip), [DE](https://ahrens.tk/MapQuizzzes-de.zip), [NL](https://ahrens.tk/MapQuizzzes-nl.zip)
+Du kannst dir das Live-Demo **[Bourtange-Quiz](https://ahrens.tk/MapQuizzzes-de)** anschauen. Stell dir vor du würdest die **[Festung Bourtange](https://www.bourtange.de)** vor Ort besuchen und es dort vor Ort spielen. Auch kannst du dir das **[Münster-Quiz](https://ahrens.tk/muensterquiz)** anschauen und in Münster vor Ort die Quiz-Fragen beantworten.
 
 ---
 
 ## ✨ Features
 
-- **Komplett im Browser:** Die gesamte Logik läuft clientseitig. Es ist keine serverseitige Datenbank oder Anwendungslogik erforderlich.
+- **Reine Browser-Anwendung:** Die gesamte Logik läuft im Browser. Es ist keine serverseitige Datenspeicherung statt
 - **PWA-Ready:** Kann wie eine native App zum Startbildschirm von Android- und iOS-Geräten hinzugefügt werden.
 - **Keine Anmeldung:** Nutzer können sofort und ohne Konto loslegen.
-- **Interaktive Karten:** Basiert auf Leaflet.js mit Kartenmaterial von OpenStreetMap und Esri.
-- **GPS-Navigation:** Zeigt den eigenen Standort an und bietet eine Navigationsfunktion zu den Rätselorten.
+- **Interaktive Karten:** MapQuizzzes nutzt mit Leaflet das Kartenmaterial von OpenStreetMap und Esri.
+- **GPS-Navigation:** Zeigt den eigenen Standort an und bietet eine Navigationsfunktion zu den Rätselorten per Google Maps
 - **Flexible Tour-Modi:**
     - **Schritt für Schritt:** Schaltet das nächste Rätsel erst nach dem Lösen des vorherigen frei.
-    - **Ganze Karte:** Alle Rätsel sind von Anfang an sichtbar.
-    - **GPX-Routen:** Unterstützt das Anzeigen von vordefinierten Routen aus `.gpx`-Dateien.
+    - **Ganze Karte:** Alle Rätsel sind von Anfang an sichtbar inkl. GPX-Track
+    - **Luftlinie:** "Ähnlich Schritt für Schritt" jedoch mit Luflinie ohne GPX-Track
+    - **Freestyle:** Ähnlich "Ganze Karte" aber ohne GPX-Track
 - **Vielseitige Rätsel:**
-    - Multiple-Choice-Fragen mit direkter Rückmeldung.
-    - Optionale Tipps und sofortige Auflösung.
-    - Einbindung von Bildern pro Station.
+    - Multiple-Choice-Fragen oder offene Fragen (jeweils 3 Sekunden Antwortzeit)
+    - Tipps aber auch Fragen können optional verwendet werden
+    - für jeden Ort wird ein Bild verwendet
+    - optional können zu jedem Ort weitere Modals geöffnet und auch Links zu externen Webseiten verwendet werden
 - **Anpassbar & Erweiterbar:** Alle Touren, Rätsel und Texte werden über einfache `JSON`-Dateien konfiguriert.
-- **Mehrsprachigkeit:** Das Design ist von Grund auf mehrsprachig und kann leicht um weitere Sprachen erweitert werden.
-- **Datenschutzfreundlich:** Lädt Kartendaten direkt von den Anbietern (OSM/Esri). Es werden keine persönlichen Daten der Nutzer gespeichert.
+- **Mehrsprachigkeit:** Das Design ist von Grund auf mehrsprachig und kann leicht um weitere Sprachen erweitert werden
 - **Open Source:** Veröffentlicht unter der MIT-Lizenz.
 
 ---
 
 ## 🛠️ Technische Struktur
 
-Das Projekt besteht aus einer PHP-Datei, die als "Konfigurations-Server" dient, und einer reinen JavaScript-Anwendung, die die gesamte Quizlogik ausführt.
-
 1. **`index.php`**: Lädt die Hauptkonfiguration (`MapQuizzzes.json`), erkennt die Sprache und stellt die HTML-Grundstruktur sowie die Konfigurationsdaten für die JavaScript-App bereit. Dient auch als API-Endpunkt, um die Daten einer ausgewählten Tour (`quizdata.json`) zu laden.
-2. **`MapQuizzzes.js`**: Das Herzstück der Anwendung. Es enthält die Klassen für:
-    - **`App`**: Die Hauptklasse, die alles initialisiert.
-    - **`QuizMap`**: Steuert die Leaflet-Karte, Marker, Routen und Steuerelemente.
-    - **`TourManager`**: Verwaltet das Laden der Tourdaten, den Fortschritt des Spielers (gelöste Rätsel) und die Anzeige der Marker.
-    - **`QuizModal`**: Steuert das Popup-Fenster für die Rätsel.
-    - **`UIManager`**: Verwaltet den Startbildschirm und die allgemeine Benutzeroberfläche.
+2. **`MapQuizzzes.js`**: Das Herzstück der Anwendung
 3. **Konfigurationsdateien (`.json`)**:
     - **`MapQuizzzes.json`**: Globale Konfiguration (Name, verfügbare Touren, UI-Übersetzungen).
     - **`quizdata.json`**: Enthält alle Rätselpunkte für eine bestimmte Tour (Koordinaten, Fragen, Antworten, Bilder).
@@ -58,19 +48,25 @@ Das Projekt besteht aus einer PHP-Datei, die als "Konfigurations-Server" dient, 
 
 Um eine eigene Rätseltour zu erstellen, sind nur wenige Schritte nötig:
 
-1. **Neuen Tour-Ordner erstellen:**
-    - Erstellen Sie einen neuen Ordner (z. B. `/mein-neues-quiz/`).
-    - Fügen Sie Ihre Bilder in Unterordner (`/img/` und `/min/` für Thumbnails) ein.
+1. **Unterordner löschen oder umbenennen:**
+   -   Festung (Schritt für Schritt), Festung (Ganze Karte), Festung (Luftlinie), Festung (Freestyle)
 
-2. **`quizdata.json` anpassen:**
-    - Erstellen Sie eine `quizdata.json`-Datei in Ihrem neuen Tour-Ordner.
-    - Definieren Sie für jedes Bild einen Rätselpunkt mit `id` (Dateiname des Bildes), `title`, `question`, `answer` und den GPS-Koordinaten (`latitude`, `longitude`).
+2. **Neue Unterordner für jede Tour anlegen oder umbennnen**
+   - z. B. `Meine Tour`
 
-3. **`MapQuizzzes.json` aktualisieren:**
-    - Fügen Sie den Namen Ihres neuen Ordners zur Liste `availableTours` hinzu.
-    - Passen Sie bei Bedarf `quizName` und andere Texte an.
+3. **MapQuizzzes.json anpassen:**
+    - eigener Quiz-Name, Infos für Starseite, Eintragen der Touren z. B. "Meine Tour"
 
-Fertig! Ihre neue Tour erscheint nun auf der Startseite zur Auswahl.
+4. **Notwendige Dateien in den Tour-Ordner kopieren:**
+   - Bilder in zwei Auflösungen, verwende gerne `upload.php` aus den Demo-Tourordnern
+   - optional Zusatzinfos zusammenstellen (modalheader, modalfooter, modalextra)
+
+4. **`quizdata.json` je Tour anpassen:**
+    - Erstellen oder Kopien `quizdata.json`-Datei
+    - jedes JSON-Objekt enthält die für jeden einzelnen Ort benötigten Daten
+
+
+Fertig! Deine MapQuizzzes-Instanz mit deiner Tour "Meine Tour" ist fertig und einsatzbereit. 
 
 ---
 
