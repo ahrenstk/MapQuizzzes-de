@@ -101,4 +101,4 @@ Fertig! Deine MapQuizzzes-Instanz mit deinen Touren ist fertig und einsatzbereit
 
 ## 📄 Lizenz
 
-Dieses Projekt steht unter der **MIT-Lizenz**. Die Lizenzdetails findest du in der `LICENSE.txt`-Datei.
+Dieses Projekt steht unter der **MIT-Lizenz**. Die Lizenzdetails findest du in der `LICENSE`-Datei.
