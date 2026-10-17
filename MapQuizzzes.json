@@ -6,7 +6,7 @@
     "quizName": "Bourtange-Quiz",
     "availableTours": ["Festung (Schritt für Schritt)", "Festung (Ganze Karte)", "Festung (Luftlinie)", "Festung (Freestyle)" ],
     "privacyNotice": "Die erforderlichen Kartendaten werden direkt von den Servern der Kartenanbieter <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> und <a href='https://www.esri.com/privacy' target='_blank'>Esri</a> heruntergeladen.",
-    "quizNotice": "<strong>Bourtange-Quiz</strong> ist ein <strong>Demo</strong> von <a href='https://github.com/ahrenstk/MapQuizzzes-de'>MapQuizzzes</a>.<br><a href='https://ahrens.tk/MapQuizzzes-en'>English</a>&nbsp;<span style='color: #6c757d;'>Deutsch</span>&nbsp;<a href='https://ahrens.tk/MapQuizzzes-nl'>Nederlands</a><br><br><br><br>Schau auch gerne beim <a href='https://ahrens.tk/muensterquiz' target='_blank' rel='noopener'>Münster-Quiz</a> vorbei.",
+    "quizNotice": "<strong>Bourtange-Quiz</strong> ist ein <strong>Demo</strong> von <a href='https://github.com/ahrenstk/MapQuizzzes-de'>MapQuizzzes</a>.<br><br><a href='https://ahrens.tk/MapQuizzzes-en'>English</a>&nbsp;<span style='color: #6c757d;'>Deutsch</span>&nbsp;<a href='https://ahrens.tk/MapQuizzzes-nl'>Nederlands</a><br><br><br><br>Schau auch gerne beim <a href='https://ahrens.tk/muensterquiz' target='_blank' rel='noopener'>Münster-Quiz</a> vorbei.",
     "tr": {
         "en": {
             "showHint": "Show hint?",
