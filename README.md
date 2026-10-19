@@ -48,7 +48,7 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
 - **Interaktive Karten:** MapQuizzzes nutzt mit Leaflet das Kartenmaterial von OpenStreetMap und Esri.
 - **GPS-Navigation:** Zeigt den eigenen Standort an und bietet eine Navigationsfunktion zu den Rätselorten per Google Maps
 - **Flexible Tour-Modi:**
-    - **Schritt für Schritt:** Schaltet das nächste Rätsel erst nach dem Lösen des vorherigen frei.
+    - **Schritt für Schritt:** Schaltet das nächste Rätsel erst nach dem Lösen des vorherigen Rätsels frei.
     - **Ganze Karte:** Alle Rätsel sind von Anfang an sichtbar inkl. GPX-Track
     - **Luftlinie:** "Ähnlich Schritt für Schritt" jedoch mit Luflinie ohne GPX-Track
     - **Freestyle:** Ähnlich "Ganze Karte" aber ohne GPX-Track
@@ -57,6 +57,7 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
     - Tipps aber auch Fragen können optional verwendet werden
     - für jeden Ort wird ein Bild verwendet
     - optional können zu jedem Ort weitere Modals geöffnet und auch Links zu externen Webseiten verwendet werden
+- **Gelöste Fragen:** Bereits gelöste Fragen werden farbig markiert, um den Überblick zu behalten 
 - **Anpassbar & erweiterbar:** Alle Touren, Rätsel und Texte werden über einfache `JSON`-Dateien konfiguriert.
 - **Mehrsprachigkeit:** Das Design ist von Grund auf mehrsprachig und kann leicht um weitere Sprachen erweitert werden, jede Sprache benötigt jedoch eine eigene Softwareinstanz
 - **Open Source:** Veröffentlicht unter der MIT-Lizenz
