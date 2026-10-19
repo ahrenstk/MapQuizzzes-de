@@ -59,17 +59,16 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
     - optional können zu jedem Ort weitere Modals geöffnet und auch Links zu externen Webseiten verwendet werden
 - **Anpassbar & Erweiterbar:** Alle Touren, Rätsel und Texte werden über einfache `JSON`-Dateien konfiguriert.
 - **Mehrsprachigkeit:** Das Design ist von Grund auf mehrsprachig und kann leicht um weitere Sprachen erweitert werden
-- **Open Source:** Veröffentlicht unter der MIT-Lizenz.
+- **Open Source:** Veröffentlicht unter der MIT-Lizenz
 
 ---
 
 ## 🛠️ Technische Struktur
 
-1. `index.php`: Lädt die Hauptkonfiguration (`MapQuizzzes.json`), erkennt die Sprache und stellt die HTML-Grundstruktur sowie die Konfigurationsdaten für die JavaScript-App bereit. Dient auch als API-Endpunkt, um die Daten einer ausgewählten Tour (`quizdata.json`) zu laden.
-2. `MapQuizzzes.js`: Das Herzstück der Anwendung
-3. Konfigurationsdateien (`.json`):
-    - `MapQuizzzes.json`: Globale Konfiguration (Name, verfügbare Touren, UI-Übersetzungen).
-    - `quizdata.json`: Enthält alle Rätselpunkte für eine bestimmte Tour (Koordinaten, Fragen, Antworten, Bilder).
+1. `/index.php`: Lädt die Hauptkonfiguration (`MapQuizzzes.json`)
+2. `/MapQuizzzes.json`: Hauptkonfiguration für Sprache, Startseite sowie Tourenauswahl (Unterverzeichnisse jeweils inkl. `quizdata.json`)
+3. `/Tourname/quizdata.json`: Konfigurationsdatei für eine Einzeltour mit JSON-Objekte für jede Ort mit Bildname, Koordinaten, Fragen, Tipps, Antworten, ..)
+4. `js/MapQuizzzes.js` und `css/MapQuizzzes.css`: JavaScript und CSS von MapQuizzzes
 
 ---
 
