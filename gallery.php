@@ -1,11 +1,11 @@
 <?php
 /**
  * ===========================================================================
- *   MapQuizzzes (MapQuizzzes-nl)
+ *   MapQuizzzes (MapQuizzzes-de)
  * 
- *   File:        index.php
+ *   File:        gallery.php
  *   Copyright:   (c) 2026 Heinz Ahrens
- *   Repository:  https://github.com/ahrenstk/MapQuizzzes-nl
+ *   Repository:  https://github.com/ahrenstk/MapQuizzzes-de
  *   License:     GNU General Public License v3 (GPL v3)
  * ===========================================================================
  * 
