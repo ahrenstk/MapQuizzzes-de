@@ -61,7 +61,7 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
 - **Integrierter Datenchutzhinweis:** Einwilligung zur Aktivierung der Zwei-Klick-Methode für eingebettete Karten (OpenStreetMap und Esri). 
 - **Anpassbar & erweiterbar:** Alle Touren, Rätsel und Texte werden über einfache `JSON`-Dateien konfiguriert.
 - **Mehrsprachigkeit:** Das Design ist von Grund auf mehrsprachig und kann leicht um weitere Sprachen erweitert werden, jede Sprache benötigt jedoch eine eigene Softwareinstanz
-- **Open Source:** Veröffentlicht unter der MIT-Lizenz
+- **Open Source** Veröffentlicht unter der GPL v3 Lizenz (mit Ausnahme für Tour-Daten)
 
 ---
 
