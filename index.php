@@ -278,7 +278,7 @@ $appConfigJson = json_encode(
 <!--
   ==============================================================
   MapQuizzzes
-  Copyright (c) 2026 Heinz Ahrens (https://ahrens.tk/MapQuizzzes-de)
+  Copyright (c) 2026 Heinz Ahrens (https://github.com/ahrenstk/MapQuizzzes-de/MapQuizzzes-de)
   License: GNU GPL v3
   SPDX-License-Identifier: GPL-3.0-or-later
   ==============================================================
