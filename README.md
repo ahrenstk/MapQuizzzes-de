@@ -102,6 +102,24 @@ Fertig! Deine MapQuizzzes-Instanz mit deinen Touren ist fertig und einsatzbereit
 
 ---
 
-## 📄 Lizenz
+## 📄 Lizenz & wichtige Ausnahme für deine Quizdaten
 
-Dieses Projekt steht unter der **MIT-Lizenz**. Die Lizenzdetails findest du in der `LICENSE`-Datei.
+Dieses Projekt ist unter der **GNU General Public License v3 (GPL v3)** lizenziert – jedoch mit einer speziellen Ausnahme für deine kreativen Inhalte.
+
+### ⚠️ Was bedeutet das für dich und deine Quizdaten?
+
+Um dir, deiner Schule oder deinem Unternehmen absolute Sicherheit und Freiheit beim Erstellen von Touren zu garantieren, haben wir den **Software-Code** strikt von deinen **kreativen Inhalten** getrennt:
+
+1. **Das Software-Framework (GPL v3):** 
+   Der eigentliche Code von MapQuizzzes (PHP, JavaScript, CSS) ist Open-Source. Wenn du oder deine Entwickler das Kern-Framework verändern, verbessern oder erweitern, müssen diese Code-Änderungen unter der GPL v3 ebenfalls Open-Source bleiben.
+
+2. **Deine Tour-Daten & Medien (von der GPL v3 AUSGESCHLOSSEN):** 
+   Alle deine individuellen Tour-Inhalte, Fragen, Antworten und Mediendateien sind **ausdrücklich von der GPL v3 ausgeschlossen**. Das betrifft im Speziellen:
+   * Deine Quiz-Konfigurationen (`quizdata.json`, `MapQuizzzes.json`)
+   * Alle hochgeladenen Fotos, Hintergrundbilder sowie Audio- und Videodateien
+   * Alle geschriebenen Fragen, Tipps, Rätsel und eigenen Modal-Texte
+
+   **Diese Daten bleiben zu 100 % dein exklusives geistiges Eigentum.** Du bist NICHT verpflichtet, deine Rätselfragen oder Bilder offenzulegen, zu teilen oder unter eine freie Lizenz zu stellen. Du kannst deine fertigen Touren völlig frei für kommerzielle Events nutzen, sie privat halten oder verkaufen.
+
+Die detaillierten Lizenzbestimmungen findest du in der [LICENSE](https://github.com/ahrenstk/MapQuizzzes-de/blob/main/LICENSE)-Datei.
+
