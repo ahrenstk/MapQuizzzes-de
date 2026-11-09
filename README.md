@@ -61,7 +61,7 @@ Das Beste vorweg: **MapQuizzzes ist komplett kostenlos!** Dein Weg zum eigenen M
 - **Integrierter Datenchutzhinweis:** Einwilligung zur Aktivierung der Zwei-Klick-Methode für eingebettete Karten (OpenStreetMap und Esri). 
 - **Anpassbar & erweiterbar:** Alle Touren, Rätsel und Texte werden über einfache `JSON`-Dateien konfiguriert.
 - **Mehrsprachigkeit:** Das Design ist von Grund auf mehrsprachig und kann leicht um weitere Sprachen erweitert werden, jede Sprache benötigt jedoch eine eigene Softwareinstanz
-- **Open Source** Veröffentlicht unter der GPL v3 Lizenz (mit Ausnahme für Tour-Daten)
+- **Open Source** Veröffentlicht unter GNU Affero General Public License v3 (AGPL v3) (mit Ausnahme für Tour-Daten)
 
 ---
 
@@ -104,22 +104,26 @@ Fertig! Deine MapQuizzzes-Instanz mit deinen Touren ist fertig und einsatzbereit
 
 ## 📄 Lizenz & wichtige Ausnahme für deine Quizdaten
 
-Dieses Projekt ist unter der **GNU General Public License v3 (GPL v3)** lizenziert – jedoch mit einer speziellen Ausnahme für deine kreativen Inhalte.
+Dieses Projekt ist unter der **GNU Affero General Public License v3 (AGPL v3)** lizenziert – jedoch mit einer speziellen Ausnahme für deine kreativen Inhalte.
 
 ### ⚠️ Was bedeutet das für dich und deine Quizdaten?
 
 Um dir, deiner Schule oder deinem Unternehmen absolute Sicherheit und Freiheit beim Erstellen von Touren zu garantieren, haben wir den **Software-Code** strikt von deinen **kreativen Inhalten** getrennt:
 
-1. **Das Software-Framework (GPL v3):** 
-   Der eigentliche Code von MapQuizzzes (PHP, HTML, JavaScript, CSS) ist Open-Source. Wenn du oder deine Entwickler das Kern-Framework verändern, verbessern oder erweitern, müssen diese Code-Änderungen unter der GPL v3 ebenfalls Open-Source bleiben.
+1. **Das Software-Framework (AGPL v3):** 
 
-2. **Deine Tour-Daten & Medien (von der GPL v3 AUSGESCHLOSSEN):** 
-   Alle deine individuellen Tour-Inhalte, Fragen, Antworten und Mediendateien sind **ausdrücklich von der GPL v3 ausgeschlossen**. Das betrifft im Speziellen:
+   Der eigentliche Code von MapQuizzzes (PHP, HTML, JavaScript, CSS) ist Open-Source. Wenn du oder deine Entwickler das Kern-Framework verändern, verbessern oder erweitern, müssen diese Code-Änderungen unter der AGPL v3 ebenfalls Open-Source bleiben. Da MapQuizzzes eine Webanwendung ist, gilt dies ausdrücklich auch dann, wenn du die modifizierte Version auf einem Server hostest und Nutzern über ein Netzwerk (z. B. das Internet) bereitstellst – der modifizierte Quellcode muss in diesem Fall den Nutzern der Anwendung zugänglich gemacht werden.
+
+2. **Deine Tour-Daten & Medien (von der AGPL v3 AUSGESCHLOSSEN):** 
+
+   Alle deine individuellen Tour-Inhalte, Fragen, Antworten und Mediendateien sind **ausdrücklich von der AGPL v3 ausgeschlossen**. Das betrifft im Speziellen:
+
    * Deine Quiz-Konfigurationen (`quizdata.json`, `MapQuizzzes.json`)
    * Alle hochgeladenen Fotos, Hintergrundbilder sowie Audio- und Videodateien
    * Alle geschriebenen Fragen, Tipps, Rätsel und eigenen Modal-Texte
 
    **Diese Daten bleiben zu 100 % dein exklusives geistiges Eigentum.** Du bist NICHT verpflichtet, deine Rätselfragen oder Bilder offenzulegen, zu teilen oder unter eine freie Lizenz zu stellen. Du kannst deine fertigen Touren völlig frei für kommerzielle Events nutzen, sie privat halten oder verkaufen.
+
 
 Die detaillierten Lizenzbestimmungen findest du in der [LICENSE](https://github.com/ahrenstk/MapQuizzzes-de/blob/main/LICENSE)-Datei.
 
