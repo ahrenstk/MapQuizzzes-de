@@ -13,7 +13,7 @@
 
 ## 🚀 Live-Demo
 
-Du kannst dir das Live-Demo **[Bourtange-Quiz](https://ahrens.tk/MapQuizzzes)** anschauen. Stell dir vor du würdest die **[Festung Bourtange](https://www.bourtange.de)** besuchen und es dort vor Ort spielen. Auch kannst du dir das **[Münster-Quiz](https://ahrens.tk/muensterquiz)** anschauen und falls du mal im schönen Münster bist vor Ort die Quiz-Fragen beantworten.
+Du kannst dir das Live-Demo **[Bourtange-Quiz](https://ahrens.tk/MapQuizzzes)** anschauen. Stell dir vor du würdest die **[Festung Bourtange](https://www.bourtange.de)** besuchen und es dort vor Ort spielen. Auch kannst du dir das **[Münster-Quiz](https://ahrens.tk/muensterquiz)** anschauen und es vor Ort im schönen Münster spielen.
 
 ---
 
