@@ -5,7 +5,7 @@
  * 
  *   File:        upload.php
  *   Copyright:   (c) 2026 Heinz Ahrens
- *   Repository:  https://github.com/ahrenstk/MapQuizzzes
+ *   Repository:  https://github.com/ahrenstk/MapQuizzzes-de
  *   License:     GNU Affero General Public License v3 (AGPL v3)
  * ===========================================================================
  * 
